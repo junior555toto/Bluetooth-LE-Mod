@@ -23,7 +23,6 @@
             android:text="@string/label_bluetooth_le_status"
             android:textSize="12sp"
             android:textStyle="bold"/>
-
         <TextView
             android:id="@+id/tvBluetoothLe"
             android:layout_width="wrap_content"
@@ -55,6 +54,13 @@
             android:gravity="right"
             android:text="@string/off"
             android:textSize="12sp"/>
+        <TextView
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_row="3"
+                android:text="@string/label_gps_location"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
     </GridLayout>
 
     <View
