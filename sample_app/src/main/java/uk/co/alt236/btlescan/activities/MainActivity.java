@@ -27,6 +27,8 @@ import uk.co.alt236.btlescan.util.BluetoothLeScanner;
 import uk.co.alt236.btlescan.util.BluetoothUtils;
 import uk.co.alt236.easycursor.objectcursor.EasyObjectCursor;
 
+
+
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     @Bind(R.id.tvBluetoothLe)
     protected TextView mTvBluetoothLeStatus;
